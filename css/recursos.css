@@ -1,0 +1,144 @@
+body{
+    background:#f4f8ff;
+    font-family:Arial, sans-serif;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+
+    background:#1565c0;
+    padding:15px;
+
+}
+
+
+.navbar-brand,
+.nav-link{
+
+    color:white !important;
+
+}
+
+
+.nav-link:hover{
+
+    color:#bbdefb !important;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+    margin-bottom:15px;
+
+}
+
+
+.hero p{
+
+    font-size:20px;
+
+}
+
+
+
+/* TARJETAS DE RECURSOS */
+
+.recurso{
+
+    background:white;
+    border:none;
+    border-radius:25px;
+    text-align:center;
+    height:100%;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    transition:.3s;
+
+}
+
+
+
+.recurso:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.recurso h2{
+
+    font-size:45px;
+
+}
+
+
+
+.recurso h3{
+
+    color:#1565c0;
+    margin:15px 0;
+
+}
+
+
+
+.recurso p{
+
+    color:#555;
+    line-height:1.6;
+
+}
+
+
+
+/* BOTONES */
+
+.btn-primary{
+
+    background:#1565c0;
+    border:none;
+    border-radius:20px;
+    padding:12px 25px;
+
+}
+
+
+
+.btn-primary:hover{
+
+    background:#0d47a1;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+    background:#1565c0;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+
+}

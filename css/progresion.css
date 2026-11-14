@@ -1,0 +1,278 @@
+/*==========================
+      GENERAL
+==========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+
+/*==========================
+        NAVBAR
+==========================*/
+
+.menu{
+    background:#082248;
+    padding:15px 0;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-family:'Cinzel',serif;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white!important;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#ffd54f!important;
+}
+
+
+/*==========================
+        PORTADA
+==========================*/
+
+.hero{
+
+    padding:150px 20px 80px;
+
+    background:
+    linear-gradient(
+    rgba(8,34,72,.85),
+    rgba(8,34,72,.85)
+    ),
+    url("../img/fondo.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+.hero h1{
+
+    font-family:'Cinzel',serif;
+    font-size:55px;
+
+}
+
+
+.hero h2{
+
+    color:#ffd54f;
+    margin-top:15px;
+
+}
+
+
+.hero p{
+
+    max-width:850px;
+    margin:25px auto;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+
+
+/*==========================
+        TARJETAS
+==========================*/
+
+.parcial{
+
+    border:none;
+
+    border-radius:20px;
+
+    background:white;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.10);
+
+    padding:10px;
+
+    transition:.3s;
+
+}
+
+
+.parcial:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.parcial h3{
+
+    color:#0B3C5D;
+
+    font-family:'Cinzel',serif;
+
+}
+
+
+.parcial p{
+
+    line-height:1.8;
+
+}
+
+
+/*==========================
+      PERSONAJES
+==========================*/
+
+
+.personajes{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(230px,1fr));
+
+    gap:25px;
+
+}
+
+
+.personaje{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+
+.personaje:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+.personaje img{
+
+    width:160px;
+
+    height:160px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin-bottom:20px;
+
+}
+
+
+.personaje h5{
+
+    color:#1565c0;
+
+    font-weight:bold;
+
+}
+
+
+
+/*==========================
+       DATO CURIOSO
+==========================*/
+
+
+.alert{
+
+    border-radius:20px;
+
+    padding:25px;
+
+}
+
+
+
+/*==========================
+       FOOTER
+==========================*/
+
+
+.footer{
+
+    background:#082248;
+
+    color:white;
+
+    padding:45px 20px;
+
+    text-align:center;
+
+}
+
+
+
+/*==========================
+       RESPONSIVE
+==========================*/
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+}
+section{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.timeline{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+}
+
+
+.evento{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+
+.evento h4{
+    color:#1565c0;
+    font-size:30px;
+}

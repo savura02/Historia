@@ -1,0 +1,104 @@
+/* Fondo */
+body{
+    background:#eef5ff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero */
+.hero-conceptos{
+    background:linear-gradient(135deg,#0d6efd,#4facfe);
+    padding:70px 20px;
+    margin-bottom:40px;
+}
+
+.hero-conceptos h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.hero-conceptos p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+/* Títulos */
+h2{
+    font-weight:bold;
+}
+
+/* Tarjetas */
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.card-header{
+    font-weight:bold;
+    font-size:1.3rem;
+}
+
+/* Tablas */
+.table{
+    margin-bottom:0;
+}
+
+.table th{
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+.table td{
+    vertical-align:middle;
+    text-align:justify;
+    padding:15px;
+}
+
+.table-hover tbody tr:hover{
+    background:#dbeafe;
+    transition:.3s;
+}
+
+/* Botón */
+.btn-primary{
+    border-radius:30px;
+    padding:12px 30px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:scale(1.05);
+}
+
+/* Footer */
+footer{
+    margin-top:40px;
+    font-size:15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.hero-conceptos h1{
+    font-size:2.2rem;
+}
+
+.hero-conceptos p{
+    font-size:1rem;
+}
+
+.table th,
+.table td{
+    font-size:14px;
+}
+
+}

@@ -1,0 +1,84 @@
+Creo otro css /* ======== Banner ======== */
+
+.hero-video{
+    background: linear-gradient(135deg,#0d6efd,#0a58ca);
+    color:white;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.hero-video h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.hero-video p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+/* ======== Tarjetas ======== */
+
+.card{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.card-header h3{
+    margin:0;
+    font-weight:bold;
+}
+
+/* ======== Video ======== */
+
+video{
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+}
+
+/* ======== Alertas ======== */
+
+.alert{
+    border-radius:12px;
+}
+
+/* ======== Botones ======== */
+
+.btn{
+    border-radius:30px;
+    padding:10px 25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+/* ======== Footer ======== */
+
+footer{
+    margin-top:50px;
+}
+
+/* ======== Responsive ======== */
+
+@media(max-width:768px){
+
+.hero-video h1{
+    font-size:2.2rem;
+}
+
+.hero-video p{
+    font-size:1rem;
+}
+
+}

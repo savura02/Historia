@@ -1,0 +1,476 @@
+/*==========================
+        GENERAL
+==========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+/*==========================
+        NAVBAR
+==========================*/
+
+.menu{
+    background:rgba(8,34,72,.90);
+    backdrop-filter:blur(8px);
+    transition:.4s;
+    padding:12px 0;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-family:'Cinzel',serif;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:18px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffd54f !important;
+}
+
+/*==========================
+        HERO
+==========================*/
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:
+    linear-gradient(rgba(6,40,86,.80),
+    rgba(6,40,86,.80)),
+    url("../img/fondo.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+}
+
+.etiqueta{
+
+    background:#1565c0;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    display:inline-block;
+
+    margin-bottom:20px;
+
+    font-size:15px;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    font-family:'Cinzel',serif;
+
+    font-weight:700;
+
+}
+
+.hero h2{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.hero .btn{
+
+    padding:13px 28px;
+
+    border-radius:35px;
+
+    font-weight:600;
+
+}
+
+.hero-img{
+
+    max-width:85%;
+
+    animation:flotar 4s ease-in-out infinite;
+
+}
+
+@keyframes flotar{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+}
+
+/*==========================
+      TITULOS
+==========================*/
+
+section h2{
+
+    font-size:42px;
+
+    font-family:'Cinzel',serif;
+
+    color:#0B3C5D;
+
+    margin-bottom:15px;
+
+}
+
+section p{
+
+    color:#666;
+
+}
+
+/*==========================
+      PARCIALES
+==========================*/
+
+.parcial{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.parcial:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+}
+
+.parcial .card-body{
+
+    padding:40px;
+
+}
+
+.parcial h3{
+
+    font-size:55px;
+
+}
+
+.parcial h4{
+
+    color:#0B3C5D;
+
+    margin:20px 0;
+
+}
+
+/*==========================
+      PROGRESIONES
+==========================*/
+
+.progresiones{
+
+    background:white;
+
+}
+
+.progresiones .btn{
+
+    border-radius:30px;
+
+    padding:10px 22px;
+
+    font-weight:600;
+
+}
+
+/*==========================
+      RECURSOS
+==========================*/
+
+.recursos{
+
+    background:#eef4ff;
+
+}
+
+.recurso-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px 15px;
+
+    transition:.4s;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.recurso-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.recurso-card i{
+
+    font-size:50px;
+
+    color:#1565c0;
+
+    margin-bottom:20px;
+
+}
+
+.recurso-card h5{
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+/*==========================
+      FRASE
+==========================*/
+
+.frase{
+
+    background:#0B3C5D;
+
+    color:white;
+
+}
+
+.frase h2{
+
+    color:white;
+
+    font-size:35px;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+/*==========================
+      FOOTER
+==========================*/
+
+.footer{
+
+    background:#082248;
+
+    color:white;
+
+    padding:50px 20px;
+
+}
+
+.footer h3{
+
+    font-family:'Cinzel',serif;
+
+    margin-bottom:20px;
+
+}
+
+.footer hr{
+
+    border-color:rgba(255,255,255,.2);
+
+}
+
+/*==========================
+      RESPONSIVE
+==========================*/
+
+@media(max-width:991px){
+
+.hero{
+
+text-align:center;
+
+padding-top:120px;
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+.hero-img{
+
+margin-top:40px;
+
+max-width:70%;
+
+}
+
+}
+/*==========================
+        TEMAS.HTML
+==========================*/
+
+.hero{
+    padding:120px 0 80px;
+}
+
+.parcial{
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: .3s;
+    background: #fff;
+}
+
+.parcial:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.parcial h4{
+    color:#0B3C5D;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.parcial p{
+    text-align:justify;
+    line-height:1.8;
+    color:#555;
+}
+
+.badge{
+    font-size:14px;
+    padding:8px 14px;
+    border-radius:20px;
+}
+
+.parcial .btn{
+    border-radius:25px;
+    padding:8px 20px;
+    font-weight:600;
+}
+
+section h2{
+    position:relative;
+    display:inline-block;
+    left:50%;
+    transform:translateX(-50%);
+    margin-bottom:40px;
+}
+
+section h2::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#1565c0;
+    margin:10px auto 0;
+    border-radius:10px;
+}
+
+@media(max-width:768px){
+
+    .parcial .btn{
+        float:none !important;
+        display:block;
+        margin-top:15px;
+        width:100%;
+    }
+
+}
+.personaje{
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+    height:100%;
+    transition:.3s;
+}
+
+
+.personaje:hover{
+    transform:translateY(-8px);
+}
+
+
+.personaje img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+
+.personaje h5{
+    color:#0B3C5D;
+    font-weight:700;
+}
